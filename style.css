@@ -1,0 +1,37 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#input_title, #note, #object_status, #input, #start_model, #object_status, #detection_status {
+font-size: 18px;
+margin: 8px;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+}
+
+canvas {
+    box-shadow: 10 10 10px grey;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+input {
+    border: olivedrab;
+    background-color: rgba(0, 128, 0, 0.5);
+    font-style: italic;
+}
+
+#object_status {
+    background-color: blueviolet;
+}
+
+#note {
+    background-color: coral;
+}
